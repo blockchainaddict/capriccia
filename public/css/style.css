@@ -117,6 +117,7 @@ header{
     background-image: linear-gradient(to right, rgba(30, 34, 157, 0.8), rgba(255,0,0,0));
 }
 
+
 .main_title h2{
     margin-top: 50px;
     margin-bottom: 35px;
@@ -161,6 +162,9 @@ header{
     margin: 0 40px;
     width: 40vw;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     
     /* linear-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1)), to(rgba(0, 0, 0, 0))); */
 }
